@@ -1,4 +1,4 @@
-# GUILD-BOOMBER
+# GUILD-BOOMBER-BOT
 
  Discord Sunucu Patlatma Botu
  
