@@ -1,2 +1,0 @@
-# sunucupatlat.exe
-Merhaba ben CryonicX sizlere sunucularda patlatmak için kullandığım altyapımı paylaşacağım bu altyapıda isteğe bağlı ya cok token ya da 1 token kullanabilirsiniz altyapıda bir işlemı 2 farkı yerden aynı anda  4 işlemi yaptırdığım için pek bir farkı olmıcak her şekilde o rolleri sikiceksiniz zaten bu altyapıyı herkes birbirini patlatsın dıye paylaşıyorum sekme açma eforuna gırmeyın bosuna alın altyapıyı kullanın seviliyorsunuz &lt;33 (Sacma sapan sunucu kavgalarınız umrumda değil)
