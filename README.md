@@ -48,7 +48,7 @@ Type ````python main.py```` to start the script.
 
 # Developer
 
-*CRYONICX*
+* *CRYONICX*
 
 * Discord: [CRYONICX#9999](https://discord.com/users/788124670556766209)
 * Github: [@CryonicX](https://github.com/CryonicsX)
