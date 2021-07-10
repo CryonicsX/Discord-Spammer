@@ -1,8 +1,8 @@
 # Discord Spammer
 
-> *You can use Advanced DISCORD SPAMMER with many settings or optional proxy.*
+* *You can use Advanced DISCORD SPAMMER with many settings or optional proxy.*
 
-#Images
+# Images
 
 ![cryonicx](https://media.discordapp.net/attachments/862395500354600960/863492501993947136/unknown.png?width=972&height=480)
 
