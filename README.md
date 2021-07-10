@@ -1,6 +1,6 @@
 # Discord Spammer
 
-* *You can use Advanced DISCORD SPAMMER with many settings or optional proxy.*
+You can use Advanced DISCORD SPAMMER with many settings or optional proxy.
 
 # Images
 
@@ -9,11 +9,11 @@
 ![cryonicX](https://media.discordapp.net/attachments/862395500354600960/863493986231386132/unknown.png?width=895&height=480)
 
 
-#Installation
+# Installation
 
-> Install Python: https://www.python.org/downloads/
+Install Python: https://www.python.org/downloads/
 
-> İnstall requirements.txt 
+İnstall requirements.txt 
 ````
 pip install -r requirements.txt
 ````
