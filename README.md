@@ -26,12 +26,11 @@ Put your tokens inside of tokens.txt in this format
 MzI1MTU3ODA5MjExNTcyMjI1.DOQYbA.vnBfE7DtN2zxZW6Ohw_POto6npA
 MTYzODM3OTQ3OTY2MTI4MTI4.DOQApA.q-RZqUVpg2drGqpSjatcZf0EJZY
 Mjc2MDY1OTc4MzM1NjI1MjE2.DNTGNw.cbNgca_1_9mJ9dal7bdnNkLcPxE
-
 ```
 
 # Proxys
 
-> Put your proxys inside of proxy.txt in this format (Optional)
+Put your proxys inside of proxy.txt in this format (Optional)
 
 ```
 89.140.125.17:80
@@ -45,11 +44,11 @@ Mjc2MDY1OTc4MzM1NjI1MjE2.DNTGNw.cbNgca_1_9mJ9dal7bdnNkLcPxE
 
 # Usage
 
-> Type ````python main.py```` to start the script.
+Type ````python main.py```` to start the script.
 
 # Developer
 
-> **CRYONICX**
+*CRYONICX*
 
 * Discord: [CRYONICX#9999](https://discord.com/users/788124670556766209)
 * Github: [@CryonicX](https://github.com/CryonicsX)
@@ -57,9 +56,9 @@ Mjc2MDY1OTc4MzM1NjI1MjE2.DNTGNw.cbNgca_1_9mJ9dal7bdnNkLcPxE
 
 # Show Your Support
 
-> If the project helped you, you can support me by giving ⭐️!
+If the project helped you, you can support me by giving ⭐️!
 
 # Licance
 
-> Copyright © 2021 [CRYONICX](https://github.com/CryonicsX).<br />
-> This project is [MIT](https://github.com/CryonicsX/Discord-Spammer/blob/main/LICENSE) licensed.
+Copyright © 2021 [CRYONICX](https://github.com/CryonicsX).<br />
+This project is [MIT](https://github.com/CryonicsX/Discord-Spammer/blob/main/LICENSE) licensed.
