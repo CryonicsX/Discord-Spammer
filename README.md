@@ -58,7 +58,7 @@ Type ````python main.py```` to start the script.
 
 If the project helped you, you can support me by giving ⭐️!
 
-# Licance
+# License
 
 Copyright © 2021 [CRYONICX](https://github.com/CryonicsX).<br />
 This project is [MIT](https://github.com/CryonicsX/Discord-Spammer/blob/main/LICENSE) licensed.
