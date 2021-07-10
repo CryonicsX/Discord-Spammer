@@ -60,7 +60,7 @@ def main():
     else:
         invite_code = input_invite_id
 
-    #print(invite_code)
+    #print(f"{invite_code}")
 
     lines = []
     with open('./config/tokens.txt') as f:
