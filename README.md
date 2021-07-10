@@ -1,4 +1,4 @@
-## Discord Spammer
+# Discord Spammer
 
 > *You can use Advanced DISCORD SPAMMER with many settings or optional proxy.*
 
@@ -18,7 +18,7 @@
 pip install -r requirements.txt
 ````
 
-## Tokens
+# Tokens
 
 Put your tokens inside of tokens.txt in this format
 
@@ -29,7 +29,7 @@ Mjc2MDY1OTc4MzM1NjI1MjE2.DNTGNw.cbNgca_1_9mJ9dal7bdnNkLcPxE
 
 ```
 
-## Proxys
+# Proxys
 
 > Put your proxys inside of proxy.txt in this format (Optional)
 
@@ -43,11 +43,11 @@ Mjc2MDY1OTc4MzM1NjI1MjE2.DNTGNw.cbNgca_1_9mJ9dal7bdnNkLcPxE
 ```
 
 
-## Usage
+# Usage
 
 > Type ````python main.py```` to start the script.
 
-## Developer
+# Developer
 
 > **CRYONICX**
 
@@ -55,11 +55,11 @@ Mjc2MDY1OTc4MzM1NjI1MjE2.DNTGNw.cbNgca_1_9mJ9dal7bdnNkLcPxE
 * Github: [@CryonicX](https://github.com/CryonicsX)
 
 
-## Show Your Support
+# Show Your Support
 
 > If the project helped you, you can support me by giving ⭐️!
 
-## Licance
+# Licance
 
 > Copyright © 2021 [CRYONICX](https://github.com/CryonicsX).<br />
 > This project is [MIT](https://github.com/CryonicsX/Discord-Spammer/blob/main/LICENSE) licensed.
