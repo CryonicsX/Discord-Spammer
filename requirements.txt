@@ -1,1 +1,1 @@
-coloroma
+colorama
