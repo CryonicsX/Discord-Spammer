@@ -3,7 +3,7 @@ from .assetsManager import *
 from .color import color
 
 def send_message(token : str , channelid : str , message : str , userAgent: str , proxies : str) -> str:
-	"""Sends a friend request to the person whose ID you enter"""
+	"""It sends the message you want to the channel whose ID you entered."""
 	headers = {"content-type": "application/json",	"authorization": token , "User-Agent" : userAgent , "content" : message , "tts" : "false"}
 	proxies = {"http" : proxies}
 	try:
