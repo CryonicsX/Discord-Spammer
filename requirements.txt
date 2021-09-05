@@ -1,1 +1,1 @@
-colorama
+pyfiglet
