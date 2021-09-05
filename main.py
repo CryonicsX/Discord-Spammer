@@ -19,7 +19,7 @@ discord = 690517771045437530
 """)
 
 while True:
-	_input = input(f"{color.YELLOW}[?] > {color.RESET_ALL}").lower()
+	_input = str(input(f"{color.YELLOW}[?] > {color.RESET_ALL}").lower())
 
 	if _input == "1":
 		userid = input(f"{color.YELLOW}[?] Enter the ID of the user you want to send a friend request to > {color.RESET_ALL}").lower()
