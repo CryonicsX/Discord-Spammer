@@ -1,63 +1,58 @@
-#İmports
-from random import choice
-from colorama import Fore, Style
-#Files
-import controller.guild_joiner as cryonicx1
-import controller.message_spammer as cryonicx2
-import controller.send_friend_request_spammer as cryonicx3
+import spammers as s
+from spammers import color
+
+s.banner(text="D-Spammer")
+
+print("""
+
+DEVELOPED BY CRONICX
+discord = 690517771045437530
 
 
-with open("./config/proxy.txt", "r") as f:
-  file_lines1 = f.readlines()
-  proxy_count = len(file_lines1)
+1: Friend Request Sender
+2: Guild Joiner
+3: Guild Leaver
+4: Message Sender
+5: Shows the help message.
+6: Exit
 
-with open("./config/tokens.txt", "r") as f:
-  file_lines2 = f.readlines()
-  token_count = len(file_lines2)
+""")
 
+while True:
+	_input = input(f"{color.YELLOW}[?] > {color.RESET_ALL}").lower()
 
+	if _input == "1":
+		userid = input(f"{color.YELLOW}[?] Enter the ID of the user you want to send a friend request to > {color.RESET_ALL}").lower()
+		for tokens in s.tokens():
+			s.friend_request(token = tokens , userid = userid , userAgent = s.userAgent() , proxies = s.proxies())
+		print(f"{color.GREEN}The transaction is finished. {color.RESET_ALL}")
 
-intro = f'''{Fore.BLUE} {Style.BRIGHT}
-    ____  _                          __   _____                                             Developed by CRYONICX
-   / __ \(_)_____________  _________/ /  / ___/____  ____ _____ ___  ____ ___  ___  _____   
-  / / / / / ___/ ___/ __ \/ ___/ __  /   \__ \/ __ \/ __ `/ __ `__ \/ __ `__ \/ _ \/ ___/
- / /_/ / (__  ) /__/ /_/ / /  / /_/ /   ___/ / /_/ / /_/ / / / / / / / / / / /  __/ /    
-/_____/_/____/\___/\____/_/   \__,_/   /____/ .___/\__,_/_/ /_/ /_/_/ /_/ /_/\___/_/   
-                                           /_/                                           
-
-All responsibility in the project is on you, I'm just a developer.
-
-Accounts may be at risk of being closed!
-
-If you find a bug in the project, you can contact me on discord. Discord = CRYONICX#9999
-
--------------------------------------------------------------------------
-
-{Fore.LIGHTWHITE_EX}Proxys : {proxy_count} 
-Tokens : {token_count}{Style.RESET_ALL}{Fore.BLUE}{Style.BRIGHT}
-
-1) Join Guild
-2) Message Spammer (DM/CHANNEL)
-3) Friend Spammer
-4) Quit
-
--------------------------------------------------------------------------
-{Style.RESET_ALL}'''
-
-print(intro)
-
-choice = input(f"{Fore.BLUE}{Style.BRIGHT}[?] >{Style.RESET_ALL}  ")
+	elif _input == "2":
+		guildid = input(f"{color.YELLOW}[?] Enter the ID of the server you want to join > {color.RESET_ALL}").lower()
+		for tokens in s.tokens():
+			s.join_guild(token = tokens , guildid = guildid , userAgent = s.userAgent() , proxies = s.proxies())
+		print(f"{color.GREEN}The transaction is finished. {color.RESET_ALL}")
 
 
-if choice == "1":
-  cryonicx1.main()
-
-if choice == "2":
-  cryonicx2.main()
-
-if choice == "3":
-  cryonicx3.main()
+	elif _input == "3":
+		guildid = input(f"{color.YELLOW}[?] Enter the ID of the server you want to leave > {color.RESET_ALL}").lower()
+		for tokens in s.tokens():
+			s.leave_guild(token = tokens , guildid=guildid , userAgent=s.userAgent() , proxies=s.proxies())
+		print(f"{color.GREEN}The transaction is finished. {color.RESET_ALL}")
 
 
-if choice == "4":
-  quit()
+	elif _input == "4":
+		channelid = input(f"{color.YELLOW}[?] Enter the ID of the channel you will message > {color.RESET_ALL}").lower()
+		message = input(f"{color.YELLOW}[?] enter message > {color.RESET_ALL}").lower()
+		for tokens in s.tokens():
+			s.send_message(token = tokens , channelid = channelid , message = message , userAgent = s.userAgent() , proxies=s.proxies())
+		print(f"{color.GREEN}The transaction is finished. {color.RESET_ALL}")
+
+	elif _input == "5":
+		print("Simply put the tokens in the ./assets/tokens.txt file.")
+
+	elif _input == "6":
+		quit()
+
+	else:
+		print(f"{color.RED}[-]Invalid options. {color.RESET_ALL}")
