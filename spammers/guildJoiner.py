@@ -3,7 +3,7 @@ from .assetsManager import *
 from .color import color
 
 def join_guild(token : str , guildid : str , userAgent: str , proxies : str) -> str:
-	"""Sends a friend request to the person whose ID you enter"""
+	"""It Join the server where you entered the ID."""
 	headers = {"content-type": "false",	"authorization": token , "User-Agent" : userAgent}
 	proxies = {"http" : proxies}
 	try:
