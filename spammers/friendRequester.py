@@ -6,7 +6,6 @@ def friend_request(token : str , userid : str , userAgent: str , proxies : str) 
 	"""Sends a friend request to the person whose ID you enter"""
 	headers = {"content-type": "application/json",	"authorization": token , "User-Agent" : userAgent}
 	proxies = {"http" : proxies}
-	body = {}
 	try:
 		x = requests.put(f"https://discordapp.com/api/v7/users/@me/relationships/{userid}" , headers=headers , proxies=proxies)
 	except Exception as err:
