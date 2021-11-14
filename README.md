@@ -1,3 +1,5 @@
+# Contact me on discord to buy the updated version. discord: CRYONICX#3283
+
 # Discord Spammer
 
 You can use Advanced DISCORD SPAMMER with multiple tokens
