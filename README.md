@@ -1,4 +1,4 @@
-# Contact me on discord to buy the updated version. discord: CRYONICX#3283
+# Contact me on discord to buy the updated version. discord: cryonicx#9830
 
 # Discord Spammer
 
