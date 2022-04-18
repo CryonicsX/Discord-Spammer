@@ -10,7 +10,7 @@ discord = 690517771045437530
 
 
 1: Friend Request Sender
-2: Guild Joiner
+2: Guild Joiner (Makes only Email-verified tokens require sms verification -> disabled the feature
 3: Guild Leaver
 4: Message Sender
 5: Shows the help message.
@@ -28,10 +28,8 @@ while True:
 		print(f"{color.GREEN}The transaction is finished. {color.RESET_ALL}")
 
 	elif _input == "2":
-		guildid = input(f"{color.YELLOW}[?] Enter the ID of the server you want to join > {color.RESET_ALL}").lower()
-		for tokens in s.tokens():
-			s.join_guild(token = tokens , guildid = guildid , userAgent = s.userAgent() , proxies = s.proxies())
-		print(f"{color.GREEN}The transaction is finished. {color.RESET_ALL}")
+		print("Not working unless you have hCaptcha bypass")
+
 
 
 	elif _input == "3":
