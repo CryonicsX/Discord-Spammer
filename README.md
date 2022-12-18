@@ -1,5 +1,9 @@
 # Contact me on discord to buy the updated version. discord: cryonicx#6980
 
+# New version:
+
+[video](https://www.youtube.com/watch?v=9Mcv6mSs8CM&ab_channel=Spamlify)
+
 # Discord Spammer
 
 You can use Advanced DISCORD SPAMMER with multiple tokens
