@@ -1,0 +1,17 @@
+{
+    "program_license": "SPAMMER-3QH1GBHV0C44C7FXR4MRNI754BDZGM7",
+    "api_version": "9",
+    "sleep_delay": 0.5,
+    "use_websocket": false,
+    "debug_mode": false,
+    "use_proxy": false,
+    "proxy_protocol": "HTTP",
+    "thread_count": 30000,
+    "nocaptcha_api": {
+      "uid": "",
+      "apikey": ""
+    },
+    "capsolver": {
+      "apikey": ""
+    }
+  }
